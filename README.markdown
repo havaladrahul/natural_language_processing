@@ -1,4 +1,4 @@
-# NLP Project: Heritage Site Image Classification
+# NLP Project: Heritage Site Image Classification And Text Generation USing T5 small
 
    ## Overview
    This project implements an image classification system for identifying heritage sites from images using the CvT-13 model from the Hugging Face Transformers library. The dataset contains images of 44 heritage sites, and the system uses FAISS for similarity search to find visually similar images. The project is developed in a Jupyter Notebook (`nlp_project.ipynb`) and is designed to run on Kaggle with GPU support.
