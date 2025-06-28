@@ -4,7 +4,7 @@
    This project implements an image classification system for identifying heritage sites from images using the CvT-13 model from the Hugging Face Transformers library. The dataset contains images of 44 heritage sites, and the system uses FAISS for similarity search to find visually similar images. The project is developed in a Jupyter Notebook (`nlp_project.ipynb`) and is designed to run on Kaggle with GPU support.
 
    ## Dataset
-   The dataset is sourced from Kaggle (`heritage_dataset`) and includes:
+   The dataset is sourced from institute (`heritage_dataset`) and includes:
    - **Images**: Organized in 44 class folders, each representing a heritage site (e.g., Chennakeshwara Temple, Hampi).
    - **Metadata**: `metadata.csv` contains image metadata.
    - **Splits**: `dataset_split.csv` defines train (2108 images), validation (264 images), and test (264 images) splits.
@@ -52,8 +52,7 @@
 
    ## References
    - Hugging Face Transformers: https://huggingface.co/docs/transformers
-   - FAISS: https://github.com/facebookresearch/faiss
-   - Kaggle Dataset: [Insert Kaggle dataset link]
+
 
    ## License
    This project is licensed under the MIT License. See the `LICENSE` file for details.
